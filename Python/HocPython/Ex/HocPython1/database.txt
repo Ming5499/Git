@@ -1,0 +1,4 @@
+sv1;coca;14.5
+sv2;buoi;18.6
+po3;Bia;20.7
+ko4;mia;19.0
