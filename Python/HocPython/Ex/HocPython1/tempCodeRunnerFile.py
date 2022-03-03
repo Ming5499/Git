@@ -1,7 +1,9 @@
-from SanphamFile import *
+def get_sum(*num):
+    tmp = 0
+    # duyet cac tham so
+    for i in num:
+        tmp += i
+    return tmp
 
-masp=input('Nhap ma sp:')
-tensp=input('Nhap ten sp:')
-dongia=float(input('Nhap gia:'))
-line=masp+';'+tensp+';'+str(dongia)
-LuuFile('database.txt',line)
+print(get_sum(1, 2, 3, 4, 5))
+
