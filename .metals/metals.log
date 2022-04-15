@@ -1,0 +1,89 @@
+2022.03.30 00:44:27 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at c:\Users\Admin\Desktop\VSCode\Git\.metals\lsp.trace.json or C:\Users\Admin\AppData\Local\scalameta\metals\cache\lsp.trace.json
+2022.03.30 00:44:28 INFO  logging to file C:\Users\Admin\Desktop\VSCode\Git\.metals\metals.log
+2022.03.30 00:44:28 INFO  Started: Metals version 0.11.2 in workspace 'C:\Users\Admin\Desktop\VSCode\Git' for client Visual Studio Code 1.65.2.
+2022.03.30 00:44:28 INFO  Parse release: 11.0.9
+2022.03.30 00:44:32 INFO  time: initialize in 4.7s
+2022.03.30 00:44:33 WARN  Build server is not auto-connectable.
+2022.03.30 00:44:33 WARN  no build tool detected in workspace 'C:\Users\Admin\Desktop\VSCode\Git'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2022.03.30 00:44:34 WARN  no build target for: C:\Users\Admin\Desktop\VSCode\Git\Scala\HelloWorld.scala
+2022.03.30 00:44:50 INFO  shutting down Metals
+2022.03.30 00:45:09 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at c:\Users\Admin\Desktop\VSCode\Git\.metals\lsp.trace.json or C:\Users\Admin\AppData\Local\scalameta\metals\cache\lsp.trace.json
+2022.03.30 00:45:10 INFO  logging to file C:\Users\Admin\Desktop\VSCode\Git\.metals\metals.log
+2022.03.30 00:45:10 INFO  Started: Metals version 0.11.2 in workspace 'C:\Users\Admin\Desktop\VSCode\Git' for client Visual Studio Code 1.65.2.
+2022.03.30 00:45:10 INFO  Parse release: 11.0.9
+2022.03.30 00:45:12 INFO  time: initialize in 2.09s
+2022.03.30 00:45:13 WARN  Build server is not auto-connectable.
+2022.03.30 00:45:13 WARN  no build tool detected in workspace 'C:\Users\Admin\Desktop\VSCode\Git'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2022.03.30 00:45:14 WARN  no build target for: C:\Users\Admin\Desktop\VSCode\Git\Scala\HelloWorld.scala
+2022.03.30 00:45:21 INFO  no build target found for C:\Users\Admin\Desktop\VSCode\Git\Scala\HelloWorld.scala. Using presentation compiler with project's scala-library version: 3.1.1
+2022.03.30 00:45:23 INFO  time: code lens generation in 1.37s
+2022.03.30 00:45:23 INFO  time: code lens generation in 1.39s
+2022.03.30 00:45:23 INFO  time: code lens generation in 9.46s
+Mar 30, 2022 12:49:31 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 381
+Mar 30, 2022 12:50:48 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: java.lang.reflect.InvocationTargetException
+java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:67)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.request(GenericEndpoint.java:120)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:261)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:190)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: java.lang.reflect.InvocationTargetException
+	at jdk.internal.reflect.GeneratedMethodAccessor5.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	... 11 more
+Caused by: java.lang.IllegalArgumentException: 7 is not a valid line number, allowed [0..6]
+	at scala.meta.internal.inputs.InternalInput.lineToOffset(InternalInput.scala:37)
+	at scala.meta.internal.inputs.InternalInput.lineToOffset$(InternalInput.scala:32)
+	at scala.meta.inputs.Input$VirtualFile.lineToOffset(Input.scala:80)
+	at scala.meta.inputs.Position$Range$.apply(Position.scala:59)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionPositionLspInverse.toMeta(MtagsEnrichments.scala:143)
+	at scala.meta.internal.parsing.Trees.$anonfun$findLastEnclosingAt$4(Trees.scala:78)
+	at scala.Option.flatMap(Option.scala:271)
+	at scala.meta.internal.parsing.Trees.findLastEnclosingAt(Trees.scala:77)
+	at scala.meta.internal.metals.codeactions.PatternMatchRefactor.contribute(PatternMatchRefactor.scala:96)
+	at scala.meta.internal.metals.CodeActionProvider$$anonfun$1.applyOrElse(CodeActionProvider.scala:64)
+	at scala.meta.internal.metals.CodeActionProvider$$anonfun$1.applyOrElse(CodeActionProvider.scala:63)
+	at scala.collection.immutable.List.collect(List.scala:323)
+	at scala.meta.internal.metals.CodeActionProvider.codeActions(CodeActionProvider.scala:63)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$codeAction$1(MetalsLanguageServer.scala:1615)
+	at scala.meta.internal.metals.CancelTokens$.future(CancelTokens.scala:38)
+	at scala.meta.internal.metals.MetalsLanguageServer.codeAction(MetalsLanguageServer.scala:1614)
+	... 15 more
+
+2022.03.30 00:53:30 INFO  shutting down Metals
+2022.03.30 21:33:25 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at c:\Users\Admin\Desktop\VSCode\Git\.metals\lsp.trace.json or C:\Users\Admin\AppData\Local\scalameta\metals\cache\lsp.trace.json
+2022.03.30 21:33:26 INFO  logging to file C:\Users\Admin\Desktop\VSCode\Git\.metals\metals.log
+2022.03.30 21:33:26 INFO  Started: Metals version 0.11.2 in workspace 'C:\Users\Admin\Desktop\VSCode\Git' for client Visual Studio Code 1.65.2.
+2022.03.30 21:33:26 INFO  Parse release: 11.0.9
+2022.03.30 21:33:30 INFO  time: initialize in 4.19s
+2022.03.30 21:33:31 WARN  Build server is not auto-connectable.
+2022.03.30 21:33:31 WARN  no build tool detected in workspace 'C:\Users\Admin\Desktop\VSCode\Git'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2022.03.30 21:33:32 WARN  no build target for: C:\Users\Admin\Desktop\VSCode\Git\Scala\HelloWorld.scala
+2022.03.30 21:33:38 INFO  no build target found for C:\Users\Admin\Desktop\VSCode\Git\Scala\HelloWorld.scala. Using presentation compiler with project's scala-library version: 3.1.1
+2022.03.30 21:33:43 INFO  time: code lens generation in 10s
+2022.03.31 13:51:00 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at c:\Users\Admin\Desktop\VSCode\Git\.metals\lsp.trace.json or C:\Users\Admin\AppData\Local\scalameta\metals\cache\lsp.trace.json
+2022.03.31 13:51:01 INFO  logging to file C:\Users\Admin\Desktop\VSCode\Git\.metals\metals.log
+2022.03.31 13:51:01 INFO  Started: Metals version 0.11.2 in workspace 'C:\Users\Admin\Desktop\VSCode\Git' for client Visual Studio Code 1.65.2.
+2022.03.31 13:51:01 INFO  Parse release: 11.0.9
+2022.03.31 13:51:11 INFO  time: initialize in 9.81s
+2022.03.31 13:51:32 WARN  Build server is not auto-connectable.
+2022.03.31 13:51:32 WARN  no build tool detected in workspace 'C:\Users\Admin\Desktop\VSCode\Git'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2022.03.31 13:51:33 WARN  no build target for: C:\Users\Admin\Desktop\VSCode\Git\Scala\HelloWorld.scala
+2022.03.31 13:51:40 INFO  no build target found for C:\Users\Admin\Desktop\VSCode\Git\Scala\HelloWorld.scala. Using presentation compiler with project's scala-library version: 3.1.1
+2022.03.31 13:51:42 INFO  time: code lens generation in 8.78s
+2022.03.31 13:56:06 INFO  shutting down Metals
+2022.04.15 23:09:52 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at c:\Users\Admin\Desktop\VSCode\Git\.metals\lsp.trace.json or C:\Users\Admin\AppData\Local\scalameta\metals\cache\lsp.trace.json
+2022.04.15 23:09:53 INFO  logging to file C:\Users\Admin\Desktop\VSCode\Git\.metals\metals.log
+2022.04.15 23:09:53 INFO  Started: Metals version 0.11.2 in workspace 'C:\Users\Admin\Desktop\VSCode\Git' for client Visual Studio Code 1.66.0.
+2022.04.15 23:09:53 INFO  Parse release: 11.0.9

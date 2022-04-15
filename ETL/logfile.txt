@@ -1,0 +1,10 @@
+2022-Apr-15-10:45:43,ETL Job Started
+2022-Apr-15-10:45:43,Extract phase Started
+2022-Apr-15-10:45:43,Extract phase Ended
+2022-Apr-15-10:45:43,Transform phase Started
+2022-Apr-15-10:45:45,Load phase Started
+2022-Apr-15-11:10:53,ETL Job Started
+2022-Apr-15-11:10:53,Extract phase Started
+2022-Apr-15-11:10:53,Extract phase Ended
+2022-Apr-15-11:10:53,Transform phase Started
+2022-Apr-15-11:10:54,Load phase Started

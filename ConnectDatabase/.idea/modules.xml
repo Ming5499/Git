@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/ConnectDatabase.iml" filepath="$PROJECT_DIR$/.idea/ConnectDatabase.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../ETL/.idea/ETL.iml" filepath="$PROJECT_DIR$/../ETL/.idea/ETL.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../Pandas_Numpy/.idea/Pandas_Numpy.iml" filepath="$PROJECT_DIR$/../Pandas_Numpy/.idea/Pandas_Numpy.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../Python/.idea/Python.iml" filepath="$PROJECT_DIR$/../Python/.idea/Python.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../WebScarping/.idea/WebScarping.iml" filepath="$PROJECT_DIR$/../WebScarping/.idea/WebScarping.iml" />
+    </modules>
+  </component>
+</project>
