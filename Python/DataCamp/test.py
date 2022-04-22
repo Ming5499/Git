@@ -41,3 +41,33 @@ while number < 5 :
 
     # Increment `number` by 1
     number = number+1
+
+#OOP
+class Dog:
+
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+
+    def bark(self):
+        print("bark bark!")
+
+    def doginfo(self):
+        print(self.name + " is " + str(self.age) + " year(s) old.")
+
+    def birthday(self):
+        self.age +=1
+
+    def setBuddy(self, buddy):
+        self.buddy = buddy
+        buddy.buddy = self
+
+ozzy = Dog("Ozzy", 2)
+skippy = Dog("Skippy", 12)
+filou = Dog("Filou", 8)
+ozzy.doginfo()
+skippy.doginfo()
+filou.doginfo()
+
+ozzy = Dog("Ozzy", 2)
+print(ozzy.age)
