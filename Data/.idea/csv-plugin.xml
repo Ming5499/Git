@@ -10,13 +10,6 @@
             </Attribute>
           </value>
         </entry>
-        <entry key="C:\Users\Admin\Desktop\VSCode\Git\ETL\source_ETL\exchange_rates_1.csv">
-          <value>
-            <Attribute>
-              <option name="separator" value="," />
-            </Attribute>
-          </value>
-        </entry>
       </map>
     </option>
   </component>
