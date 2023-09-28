@@ -71,20 +71,20 @@ def take_order():
     return order
 
 
-# def main():
-#     order = take_order()
-#     print_order(order)
+def main():
+    order = take_order()
+    print_order(order)
     
-#     subtotal = calculate_subtotal(order)
-#     print("Subtotal for the order is: " + str(subtotal))
+    subtotal = calculate_subtotal(order)
+    print("Subtotal for the order is: " + str(subtotal))
 
-#     tax = calculate_tax(subtotal)
-#     print("Tax for the order is: " + str(tax))
+    tax = calculate_tax(subtotal)
+    print("Tax for the order is: " + str(tax))
 
-#     item ,subtotal = summarize_order(order)
+    item ,subtotal = summarize_order(order)
 
-# if __name__ == "__main__":
-#     main()
+if __name__ == "__main__":
+    main()
 
-my_list = [key for key in menu] + [value for value in menu.values()]
-print(my_list)
+# my_list = [key for key in menu] + [value for value in menu.values()]
+# print(my_list)

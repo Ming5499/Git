@@ -1,7 +1,18 @@
-num_list = [33,42,5,66,77,22,16,79,36,62,78,43,88,39,53,67,89,11]
+num = 9
+class Car:
+    num = 5
+    bathrooms = 2
 
-for num in num_list:
-    if num > 45:
-        print('Over 45',num)
-    else:
-        print('Under 45',num)
+def cost_evaluation(num):
+    num = 10
+    return num
+
+class Bike():
+    num = 11
+
+cost_evaluation(num)
+car = Car()
+bike = Bike()
+car.num = 7
+Car.num = 2
+print(num)

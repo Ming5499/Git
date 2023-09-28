@@ -2,6 +2,11 @@ import sqlite3
 import time
 import zlib
 
+a = 10 
+b = 5
+answer = a + b
+print('number {} + number {} =  {}'.format(a,b,answer))
+
 howmany = int(input("How many to dump? "))
 
 conn = sqlite3.connect('index.sqlite')

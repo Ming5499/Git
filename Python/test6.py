@@ -26,13 +26,12 @@ def calculate_tax(subtotal):
     print('Calculating tax from subtotal...')
     sub = float(subtotal)
     sub *= 0.15
-    tax = round(sub, 2)
-    return tax
+    return round(sub, 2)
     raise NotImplementedError()
 
 def summarize_order(order):
     print_order(order)
-    # WRITE SOLUTION HERE
+    
     items = [item["price"] for item in order]
     subtotal = 0.0
     for x in items:
@@ -79,7 +78,7 @@ def main():
     subtotal = calculate_subtotal(order)
     print("Subtotal for the order is: " + str(subtotal))
 
-    
+    tax = calculate_tax(subtotal)
     print("Tax for the order is: " + calculate_tax(subtotal))
 
     item ,subtotal = summarize_order(order)

@@ -28,3 +28,26 @@ def json_scraper(url, file_name, bucket):
         
     s3.= boto3.client('s3')
     s3.upload_file(file_name,bucket, f"predictit/{file_name}")
+    
+with DAG(
+    "raw_predictit",
+    defauls_args = defauls_args,
+    descriiption = '',
+    shchedule_interval = datetime.timedelta(days=1),
+    start_date = start_date,
+    catchup=False,
+    tags = ["sdg"],
+) as dag:
+    
+    extract_predictit = PythonOperator(
+        task_id = 'extract_predictit',
+        python_callable = json_scraper,
+        op_kwargs= {
+            'url' : 'https://www.predictit.org/api/marketdata/all/',
+            'file_name' : 'predictit_market.json',
+            'bucket' : 'data-mbfr' 
+        }, dag =dag
+    )
+    
+    ready = DummyOperator(task_id='ready')
+    extract_predictit >> ready
