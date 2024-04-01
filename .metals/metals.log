@@ -5721,3 +5721,511 @@ WARNING: Unmatched cancel notification for request id 1
 2024.04.01 11:42:14 INFO  Scala CLI started for C:\Users\Admin\Desktop\Project-DE\openweather-etl
 2024.04.01 11:42:14 WARN  no build tool detected in workspace 'C:\Users\Admin\Desktop\Project-DE\openweather-etl'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
 2024.04.01 11:42:14 WARN  Build server is not auto-connectable.
+2024.04.01 11:54:41 INFO  Shutting down server
+2024.04.01 11:54:41 INFO  shutting down Metals
+2024.04.01 11:54:41 INFO  Shut down connection with build server.
+2024.04.01 11:54:41 INFO  Exiting server
+2024.04.01 11:55:19 INFO  Started: Metals version 1.2.2 in folders 'C:\Users\Admin\Desktop\VSCode\Git, e:\capstone-project\db-capstone-project, C:\Users\Admin\Desktop\VSCode\DE_Project\DE_project, C:\Users\Admin\Desktop\Project-DE\Twitter-project, C:\Users\Admin\Desktop\Project-DE\Youtube-project, C:\Users\Admin\Desktop\Project-DE\Python-project\python-for-data-engineering-main, C:\Users\Admin\Desktop\Project-DE\HashTag-CashTag\HashtagCashtag-master, C:\Users\Admin\Desktop\Project-DE\Podcast Project, C:\Users\Admin\Desktop\Project-DE\openweather-etl, C:\Users\Admin\Desktop\Project-DE\Football-project, C:\Users\Admin\Desktop\Project-DE\Ramdom User Project, C:\Users\Admin\Desktop\VSCode\Docker, C:\Users\Admin\Desktop\Project-DE\Reddit-project, C:\Users\Admin\Desktop\Project-DE\Web Crawler Online\WebCrawlerForOnlineInflation-master, C:\Users\Admin\Desktop\Project-DE\Redfin, C:\Users\Admin\Desktop\Project-DE\Realtime Change Data Capture Streaming, C:\Users\Admin\Desktop\Project-DE\News, C:\Users\Admin\Desktop\Project-DE\Batch Data Pipeline EMR, SnowFlake, C:\Users\Admin\Desktop\Project-DE\SparkingFlow, c:\Users\Admin\Desktop\demo-project\test-project, C:\Users\Admin\Desktop\Project-DE\Youtube-Real Time\Youtube Real Time, C:\Users\Admin\Desktop\Project-DE\Weather_AWS, C:\Users\Admin\Desktop\test-online\test-online' for client Visual Studio Code 1.87.2.
+11:55:22.482 [pool-1-thread-9] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Scanning for classpath resources at 'classpath:db/callback' ...
+11:55:22.486 [pool-1-thread-9] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Determining location urls for classpath:db/callback using ClassLoader jdk.internal.loader.ClassLoaders$AppClassLoader@2cdf8d8a ...
+11:55:22.487 [pool-1-thread-9] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Scanning for classpath resources at 'classpath:db/callback' ...
+11:55:22.487 [pool-1-thread-9] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Determining location urls for classpath:db/callback using ClassLoader jdk.internal.loader.ClassLoaders$AppClassLoader@2cdf8d8a ...
+11:55:22.487 [pool-1-thread-9] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Scanning for classpath resources at 'classpath:db/callback' ...
+11:55:22.489 [pool-1-thread-9] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Determining location urls for classpath:db/callback using ClassLoader jdk.internal.loader.ClassLoaders$AppClassLoader@2cdf8d8a ...
+11:55:22.489 [pool-1-thread-9] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Scanning for classpath resources at 'classpath:db/callback' ...
+11:55:22.489 [pool-1-thread-9] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Determining location urls for classpath:db/callback using ClassLoader jdk.internal.loader.ClassLoaders$AppClassLoader@2cdf8d8a ...
+11:55:22.490 [pool-1-thread-9] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Unable to resolve location classpath:db/callback.
+11:55:22.490 [pool-1-thread-9] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Scanning for classpath resources at 'classpath:db/callback' ...
+11:55:22.490 [pool-1-thread-9] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Determining location urls for classpath:db/callback using ClassLoader jdk.internal.loader.ClassLoaders$AppClassLoader@2cdf8d8a ...
+11:55:22.490 [pool-1-thread-9] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Unable to resolve location classpath:db/callback.
+11:55:22.490 [pool-1-thread-14] INFO org.flywaydb.core.internal.license.VersionPrinter -- Flyway Community Edition 9.22.3 by Redgate
+11:55:22.496 [pool-1-thread-14] INFO org.flywaydb.core.internal.license.VersionPrinter -- See release notes here: https://rd.gt/416ObMi
+11:55:22.496 [pool-1-thread-14] INFO org.flywaydb.core.internal.license.VersionPrinter -- 
+11:55:22.487 [pool-1-thread-8] INFO org.flywaydb.core.internal.license.VersionPrinter -- Flyway Community Edition 9.22.3 by Redgate
+11:55:22.483 [pool-1-thread-4] INFO org.flywaydb.core.internal.license.VersionPrinter -- Flyway Community Edition 9.22.3 by Redgate
+11:55:22.506 [pool-1-thread-8] INFO org.flywaydb.core.internal.license.VersionPrinter -- See release notes here: https://rd.gt/416ObMi
+11:55:22.506 [pool-1-thread-8] INFO org.flywaydb.core.internal.license.VersionPrinter -- 
+11:55:22.492 [pool-1-thread-13] INFO org.flywaydb.core.internal.license.VersionPrinter -- Flyway Community Edition 9.22.3 by Redgate
+11:55:22.507 [pool-1-thread-13] INFO org.flywaydb.core.internal.license.VersionPrinter -- See release notes here: https://rd.gt/416ObMi
+11:55:22.507 [pool-1-thread-13] INFO org.flywaydb.core.internal.license.VersionPrinter -- 
+11:55:22.490 [pool-1-thread-9] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Unable to resolve location classpath:db/callback.
+11:55:22.507 [pool-1-thread-9] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Unable to resolve location classpath:db/callback.
+11:55:22.507 [pool-1-thread-9] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Scanning for classpath resources at 'classpath:db/callback' ...
+11:55:22.508 [pool-1-thread-9] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Determining location urls for classpath:db/callback using ClassLoader jdk.internal.loader.ClassLoaders$AppClassLoader@2cdf8d8a ...
+11:55:22.508 [pool-1-thread-9] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Unable to resolve location classpath:db/callback.
+11:55:22.508 [pool-1-thread-9] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Unable to resolve location classpath:db/callback.
+11:55:22.508 [pool-1-thread-9] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Scanning for classpath resources at 'classpath:db/callback' ...
+11:55:22.492 [pool-1-thread-6] INFO org.flywaydb.core.internal.license.VersionPrinter -- Flyway Community Edition 9.22.3 by Redgate
+11:55:22.508 [pool-1-thread-9] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Determining location urls for classpath:db/callback using ClassLoader jdk.internal.loader.ClassLoaders$AppClassLoader@2cdf8d8a ...
+11:55:22.493 [pool-1-thread-11] INFO org.flywaydb.core.internal.license.VersionPrinter -- Flyway Community Edition 9.22.3 by Redgate
+11:55:22.493 [pool-1-thread-7] INFO org.flywaydb.core.internal.license.VersionPrinter -- Flyway Community Edition 9.22.3 by Redgate
+11:55:22.507 [pool-1-thread-4] INFO org.flywaydb.core.internal.license.VersionPrinter -- See release notes here: https://rd.gt/416ObMi
+11:55:22.508 [pool-1-thread-4] INFO org.flywaydb.core.internal.license.VersionPrinter -- 
+11:55:22.508 [pool-1-thread-6] INFO org.flywaydb.core.internal.license.VersionPrinter -- See release notes here: https://rd.gt/416ObMi
+11:55:22.509 [pool-1-thread-6] INFO org.flywaydb.core.internal.license.VersionPrinter -- 
+11:55:22.508 [pool-1-thread-9] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Unable to resolve location classpath:db/callback.
+11:55:22.556 [pool-1-thread-9] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Scanning for classpath resources at 'classpath:db/callback' ...
+11:55:22.557 [pool-1-thread-9] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Determining location urls for classpath:db/callback using ClassLoader jdk.internal.loader.ClassLoaders$AppClassLoader@2cdf8d8a ...
+11:55:22.508 [pool-1-thread-11] INFO org.flywaydb.core.internal.license.VersionPrinter -- See release notes here: https://rd.gt/416ObMi
+11:55:22.557 [pool-1-thread-11] INFO org.flywaydb.core.internal.license.VersionPrinter -- 
+11:55:22.557 [pool-1-thread-11] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Scanning for classpath resources at 'classpath:db/migration' ...
+11:55:22.558 [pool-1-thread-11] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Determining location urls for classpath:db/migration using ClassLoader jdk.internal.loader.ClassLoaders$AppClassLoader@2cdf8d8a ...
+11:55:22.559 [pool-1-thread-11] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Scanning URL: jar:file:/C:/Users/Admin/AppData/Local/Coursier/cache/v1/https/repo1.maven.org/maven2/org/scalameta/metals_2.13/1.2.2/metals_2.13-1.2.2.jar!/db/migration
+11:55:22.508 [pool-1-thread-7] INFO org.flywaydb.core.internal.license.VersionPrinter -- See release notes here: https://rd.gt/416ObMi
+11:55:22.557 [pool-1-thread-9] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Unable to resolve location classpath:db/callback.
+11:55:22.557 [pool-1-thread-6] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Scanning for classpath resources at 'classpath:db/migration' ...
+11:55:22.566 [pool-1-thread-7] INFO org.flywaydb.core.internal.license.VersionPrinter -- 
+11:55:22.566 [pool-1-thread-8] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Scanning for classpath resources at 'classpath:db/migration' ...
+11:55:22.567 [pool-1-thread-7] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Scanning for classpath resources at 'classpath:db/migration' ...
+11:55:22.567 [pool-1-thread-7] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Determining location urls for classpath:db/migration using ClassLoader jdk.internal.loader.ClassLoaders$AppClassLoader@2cdf8d8a ...
+11:55:22.567 [pool-1-thread-7] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Scanning URL: jar:file:/C:/Users/Admin/AppData/Local/Coursier/cache/v1/https/repo1.maven.org/maven2/org/scalameta/metals_2.13/1.2.2/metals_2.13-1.2.2.jar!/db/migration
+11:55:22.566 [pool-1-thread-4] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Scanning for classpath resources at 'classpath:db/migration' ...
+11:55:22.568 [pool-1-thread-4] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Determining location urls for classpath:db/migration using ClassLoader jdk.internal.loader.ClassLoaders$AppClassLoader@2cdf8d8a ...
+11:55:22.569 [pool-1-thread-4] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Scanning URL: jar:file:/C:/Users/Admin/AppData/Local/Coursier/cache/v1/https/repo1.maven.org/maven2/org/scalameta/metals_2.13/1.2.2/metals_2.13-1.2.2.jar!/db/migration
+11:55:22.569 [pool-1-thread-13] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Scanning for classpath resources at 'classpath:db/migration' ...
+11:55:22.569 [pool-1-thread-13] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Determining location urls for classpath:db/migration using ClassLoader jdk.internal.loader.ClassLoaders$AppClassLoader@2cdf8d8a ...
+11:55:22.570 [pool-1-thread-13] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Scanning URL: jar:file:/C:/Users/Admin/AppData/Local/Coursier/cache/v1/https/repo1.maven.org/maven2/org/scalameta/metals_2.13/1.2.2/metals_2.13-1.2.2.jar!/db/migration
+11:55:22.570 [pool-1-thread-4] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Found resource: db/migration/
+11:55:22.570 [pool-1-thread-4] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Found resource: db/migration/V1__Create_tables.sql
+11:55:22.570 [pool-1-thread-4] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Found resource: db/migration/V2__Server_discovery.sql
+11:55:22.570 [pool-1-thread-4] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Found resource: db/migration/V3__Jar_symbols.sql
+11:55:22.571 [pool-1-thread-4] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Found resource: db/migration/V4__Fingerprints.sql
+11:55:22.571 [pool-1-thread-4] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Scanning for classes at classpath:db/migration
+11:55:22.571 [pool-1-thread-13] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Found resource: db/migration/
+11:55:22.571 [pool-1-thread-13] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Found resource: db/migration/V1__Create_tables.sql
+11:55:22.571 [pool-1-thread-13] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Found resource: db/migration/V2__Server_discovery.sql
+11:55:22.571 [pool-1-thread-13] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Found resource: db/migration/V3__Jar_symbols.sql
+11:55:22.571 [pool-1-thread-13] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Found resource: db/migration/V4__Fingerprints.sql
+11:55:22.571 [pool-1-thread-13] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Scanning for classes at classpath:db/migration
+11:55:22.575 [pool-1-thread-4] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/ (filename: )
+11:55:22.567 [pool-1-thread-8] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Determining location urls for classpath:db/migration using ClassLoader jdk.internal.loader.ClassLoaders$AppClassLoader@2cdf8d8a ...
+11:55:22.567 [pool-1-thread-11] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Found resource: db/migration/
+11:55:22.602 [pool-1-thread-4] DEBUG org.flywaydb.core.internal.resource.ResourceNameValidator -- Validating V2__Server_discovery.sql
+11:55:22.603 [pool-1-thread-4] DEBUG org.flywaydb.core.internal.resource.ResourceNameValidator -- Validating V4__Fingerprints.sql
+11:55:22.603 [pool-1-thread-4] DEBUG org.flywaydb.core.internal.resource.ResourceNameValidator -- Validating V3__Jar_symbols.sql
+11:55:22.603 [pool-1-thread-4] DEBUG org.flywaydb.core.internal.resource.ResourceNameValidator -- Validating V1__Create_tables.sql
+11:55:22.604 [pool-1-thread-14] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Scanning for classpath resources at 'classpath:db/migration' ...
+11:55:22.604 [pool-1-thread-14] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Determining location urls for classpath:db/migration using ClassLoader jdk.internal.loader.ClassLoaders$AppClassLoader@2cdf8d8a ...
+11:55:22.604 [pool-1-thread-14] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Scanning URL: jar:file:/C:/Users/Admin/AppData/Local/Coursier/cache/v1/https/repo1.maven.org/maven2/org/scalameta/metals_2.13/1.2.2/metals_2.13-1.2.2.jar!/db/migration
+11:55:22.607 [pool-1-thread-13] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/ (filename: )
+11:55:22.607 [pool-1-thread-13] DEBUG org.flywaydb.core.internal.resource.ResourceNameValidator -- Validating V2__Server_discovery.sql
+11:55:22.608 [pool-1-thread-13] DEBUG org.flywaydb.core.internal.resource.ResourceNameValidator -- Validating V4__Fingerprints.sql
+11:55:22.608 [pool-1-thread-13] DEBUG org.flywaydb.core.internal.resource.ResourceNameValidator -- Validating V3__Jar_symbols.sql
+11:55:22.608 [pool-1-thread-13] DEBUG org.flywaydb.core.internal.resource.ResourceNameValidator -- Validating V1__Create_tables.sql
+11:55:22.610 [pool-1-thread-12] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Scanning for classpath resources at 'classpath:db/callback' ...
+11:55:22.610 [pool-1-thread-12] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Determining location urls for classpath:db/callback using ClassLoader jdk.internal.loader.ClassLoaders$AppClassLoader@2cdf8d8a ...
+11:55:22.611 [pool-1-thread-10] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Scanning for classpath resources at 'classpath:db/callback' ...
+11:55:22.612 [pool-1-thread-14] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Found resource: db/migration/
+11:55:22.612 [pool-1-thread-14] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Found resource: db/migration/V1__Create_tables.sql
+11:55:22.612 [pool-1-thread-14] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Found resource: db/migration/V2__Server_discovery.sql
+11:55:22.613 [pool-1-thread-14] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Found resource: db/migration/V3__Jar_symbols.sql
+11:55:22.613 [pool-1-thread-14] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Found resource: db/migration/V4__Fingerprints.sql
+11:55:22.613 [pool-1-thread-14] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Scanning for classes at classpath:db/migration
+11:55:22.613 [pool-1-thread-14] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/ (filename: )
+11:55:22.613 [pool-1-thread-14] DEBUG org.flywaydb.core.internal.resource.ResourceNameValidator -- Validating V2__Server_discovery.sql
+11:55:22.613 [pool-1-thread-14] DEBUG org.flywaydb.core.internal.resource.ResourceNameValidator -- Validating V4__Fingerprints.sql
+11:55:22.613 [pool-1-thread-14] DEBUG org.flywaydb.core.internal.resource.ResourceNameValidator -- Validating V3__Jar_symbols.sql
+11:55:22.613 [pool-1-thread-14] DEBUG org.flywaydb.core.internal.resource.ResourceNameValidator -- Validating V1__Create_tables.sql
+11:55:22.613 [pool-1-thread-2] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Scanning for classpath resources at 'classpath:db/callback' ...
+11:55:22.614 [pool-1-thread-2] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Determining location urls for classpath:db/callback using ClassLoader jdk.internal.loader.ClassLoaders$AppClassLoader@2cdf8d8a ...
+11:55:22.614 [pool-1-thread-2] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Unable to resolve location classpath:db/callback.
+11:55:22.615 [pool-1-thread-2] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Scanning for classpath resources at 'classpath:db/migration' ...
+11:55:22.627 [pool-1-thread-7] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Found resource: db/migration/
+11:55:22.627 [pool-1-thread-7] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Found resource: db/migration/V1__Create_tables.sql
+11:55:22.628 [pool-1-thread-7] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Found resource: db/migration/V2__Server_discovery.sql
+11:55:22.628 [pool-1-thread-7] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Found resource: db/migration/V3__Jar_symbols.sql
+11:55:22.628 [pool-1-thread-7] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Found resource: db/migration/V4__Fingerprints.sql
+11:55:22.628 [pool-1-thread-7] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Scanning for classes at classpath:db/migration
+11:55:22.629 [pool-1-thread-7] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/ (filename: )
+11:55:22.630 [pool-1-thread-7] DEBUG org.flywaydb.core.internal.resource.ResourceNameValidator -- Validating V2__Server_discovery.sql
+11:55:22.630 [pool-1-thread-7] DEBUG org.flywaydb.core.internal.resource.ResourceNameValidator -- Validating V4__Fingerprints.sql
+11:55:22.630 [pool-1-thread-7] DEBUG org.flywaydb.core.internal.resource.ResourceNameValidator -- Validating V3__Jar_symbols.sql
+11:55:22.630 [pool-1-thread-7] DEBUG org.flywaydb.core.internal.resource.ResourceNameValidator -- Validating V1__Create_tables.sql
+11:55:22.634 [pool-1-thread-8] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Scanning URL: jar:file:/C:/Users/Admin/AppData/Local/Coursier/cache/v1/https/repo1.maven.org/maven2/org/scalameta/metals_2.13/1.2.2/metals_2.13-1.2.2.jar!/db/migration
+11:55:22.612 [pool-1-thread-10] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Determining location urls for classpath:db/callback using ClassLoader jdk.internal.loader.ClassLoaders$AppClassLoader@2cdf8d8a ...
+11:55:22.634 [pool-1-thread-10] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Unable to resolve location classpath:db/callback.
+11:55:22.635 [pool-1-thread-10] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Scanning for classpath resources at 'classpath:db/migration' ...
+11:55:22.636 [pool-1-thread-10] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Determining location urls for classpath:db/migration using ClassLoader jdk.internal.loader.ClassLoaders$AppClassLoader@2cdf8d8a ...
+11:55:22.637 [pool-1-thread-10] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Scanning URL: jar:file:/C:/Users/Admin/AppData/Local/Coursier/cache/v1/https/repo1.maven.org/maven2/org/scalameta/metals_2.13/1.2.2/metals_2.13-1.2.2.jar!/db/migration
+11:55:22.637 [pool-1-thread-9] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Scanning for classpath resources at 'classpath:db/migration' ...
+11:55:22.637 [pool-1-thread-9] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Determining location urls for classpath:db/migration using ClassLoader jdk.internal.loader.ClassLoaders$AppClassLoader@2cdf8d8a ...
+11:55:22.637 [pool-1-thread-9] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Scanning URL: jar:file:/C:/Users/Admin/AppData/Local/Coursier/cache/v1/https/repo1.maven.org/maven2/org/scalameta/metals_2.13/1.2.2/metals_2.13-1.2.2.jar!/db/migration
+11:55:22.637 [pool-1-thread-10] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Found resource: db/migration/
+11:55:22.638 [pool-1-thread-9] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Found resource: db/migration/
+11:55:22.638 [pool-1-thread-9] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Found resource: db/migration/V1__Create_tables.sql
+11:55:22.638 [pool-1-thread-9] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Found resource: db/migration/V2__Server_discovery.sql
+11:55:22.638 [pool-1-thread-9] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Found resource: db/migration/V3__Jar_symbols.sql
+11:55:22.638 [pool-1-thread-9] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Found resource: db/migration/V4__Fingerprints.sql
+11:55:22.638 [pool-1-thread-9] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Scanning for classes at classpath:db/migration
+11:55:22.638 [pool-1-thread-9] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/ (filename: )
+11:55:22.638 [pool-1-thread-9] DEBUG org.flywaydb.core.internal.resource.ResourceNameValidator -- Validating V2__Server_discovery.sql
+11:55:22.616 [pool-1-thread-12] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Unable to resolve location classpath:db/callback.
+11:55:22.639 [pool-1-thread-8] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Found resource: db/migration/
+11:55:22.616 [pool-1-thread-11] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Found resource: db/migration/V1__Create_tables.sql
+11:55:22.636 [pool-1-thread-6] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Determining location urls for classpath:db/migration using ClassLoader jdk.internal.loader.ClassLoaders$AppClassLoader@2cdf8d8a ...
+11:55:22.638 [pool-1-thread-10] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Found resource: db/migration/V1__Create_tables.sql
+11:55:22.639 [pool-1-thread-9] DEBUG org.flywaydb.core.internal.resource.ResourceNameValidator -- Validating V4__Fingerprints.sql
+11:55:22.685 [pool-1-thread-8] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Found resource: db/migration/V1__Create_tables.sql
+11:55:22.685 [pool-1-thread-8] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Found resource: db/migration/V2__Server_discovery.sql
+11:55:22.685 [pool-1-thread-8] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Found resource: db/migration/V3__Jar_symbols.sql
+11:55:22.685 [pool-1-thread-8] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Found resource: db/migration/V4__Fingerprints.sql
+11:55:22.685 [pool-1-thread-8] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Scanning for classes at classpath:db/migration
+11:55:22.685 [pool-1-thread-8] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/ (filename: )
+11:55:22.687 [pool-1-thread-9] DEBUG org.flywaydb.core.internal.resource.ResourceNameValidator -- Validating V3__Jar_symbols.sql
+11:55:22.688 [pool-1-thread-9] DEBUG org.flywaydb.core.internal.resource.ResourceNameValidator -- Validating V1__Create_tables.sql
+11:55:22.688 [pool-1-thread-2] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Determining location urls for classpath:db/migration using ClassLoader jdk.internal.loader.ClassLoaders$AppClassLoader@2cdf8d8a ...
+11:55:22.688 [pool-1-thread-2] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Scanning URL: jar:file:/C:/Users/Admin/AppData/Local/Coursier/cache/v1/https/repo1.maven.org/maven2/org/scalameta/metals_2.13/1.2.2/metals_2.13-1.2.2.jar!/db/migration
+11:55:22.689 [pool-1-thread-2] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Found resource: db/migration/
+11:55:22.690 [pool-1-thread-2] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Found resource: db/migration/V1__Create_tables.sql
+11:55:22.690 [pool-1-thread-2] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Found resource: db/migration/V2__Server_discovery.sql
+11:55:22.690 [pool-1-thread-2] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Found resource: db/migration/V3__Jar_symbols.sql
+11:55:22.690 [pool-1-thread-2] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Found resource: db/migration/V4__Fingerprints.sql
+11:55:22.690 [pool-1-thread-2] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Scanning for classes at classpath:db/migration
+11:55:22.690 [pool-1-thread-2] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/ (filename: )
+11:55:22.690 [pool-1-thread-2] DEBUG org.flywaydb.core.internal.resource.ResourceNameValidator -- Validating V2__Server_discovery.sql
+11:55:22.690 [pool-1-thread-2] DEBUG org.flywaydb.core.internal.resource.ResourceNameValidator -- Validating V4__Fingerprints.sql
+11:55:22.690 [pool-1-thread-2] DEBUG org.flywaydb.core.internal.resource.ResourceNameValidator -- Validating V3__Jar_symbols.sql
+11:55:22.690 [pool-1-thread-2] DEBUG org.flywaydb.core.internal.resource.ResourceNameValidator -- Validating V1__Create_tables.sql
+11:55:22.692 [pool-1-thread-8] DEBUG org.flywaydb.core.internal.resource.ResourceNameValidator -- Validating V2__Server_discovery.sql
+11:55:22.692 [pool-1-thread-8] DEBUG org.flywaydb.core.internal.resource.ResourceNameValidator -- Validating V4__Fingerprints.sql
+11:55:22.692 [pool-1-thread-8] DEBUG org.flywaydb.core.internal.resource.ResourceNameValidator -- Validating V3__Jar_symbols.sql
+11:55:22.692 [pool-1-thread-8] DEBUG org.flywaydb.core.internal.resource.ResourceNameValidator -- Validating V1__Create_tables.sql
+11:55:22.693 [pool-1-thread-10] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Found resource: db/migration/V2__Server_discovery.sql
+11:55:22.693 [pool-1-thread-10] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Found resource: db/migration/V3__Jar_symbols.sql
+11:55:22.694 [pool-1-thread-10] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Found resource: db/migration/V4__Fingerprints.sql
+11:55:22.694 [pool-1-thread-10] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Scanning for classes at classpath:db/migration
+11:55:22.695 [pool-1-thread-10] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/ (filename: )
+11:55:22.695 [pool-1-thread-10] DEBUG org.flywaydb.core.internal.resource.ResourceNameValidator -- Validating V2__Server_discovery.sql
+11:55:22.695 [pool-1-thread-10] DEBUG org.flywaydb.core.internal.resource.ResourceNameValidator -- Validating V4__Fingerprints.sql
+11:55:22.695 [pool-1-thread-10] DEBUG org.flywaydb.core.internal.resource.ResourceNameValidator -- Validating V3__Jar_symbols.sql
+11:55:22.695 [pool-1-thread-10] DEBUG org.flywaydb.core.internal.resource.ResourceNameValidator -- Validating V1__Create_tables.sql
+11:55:22.707 [pool-1-thread-6] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Scanning URL: jar:file:/C:/Users/Admin/AppData/Local/Coursier/cache/v1/https/repo1.maven.org/maven2/org/scalameta/metals_2.13/1.2.2/metals_2.13-1.2.2.jar!/db/migration
+11:55:22.708 [pool-1-thread-6] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Found resource: db/migration/
+11:55:22.708 [pool-1-thread-6] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Found resource: db/migration/V1__Create_tables.sql
+11:55:22.708 [pool-1-thread-6] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Found resource: db/migration/V2__Server_discovery.sql
+11:55:22.708 [pool-1-thread-6] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Found resource: db/migration/V3__Jar_symbols.sql
+11:55:22.708 [pool-1-thread-6] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Found resource: db/migration/V4__Fingerprints.sql
+11:55:22.708 [pool-1-thread-6] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Scanning for classes at classpath:db/migration
+11:55:22.708 [pool-1-thread-6] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/ (filename: )
+11:55:22.708 [pool-1-thread-6] DEBUG org.flywaydb.core.internal.resource.ResourceNameValidator -- Validating V2__Server_discovery.sql
+11:55:22.708 [pool-1-thread-6] DEBUG org.flywaydb.core.internal.resource.ResourceNameValidator -- Validating V4__Fingerprints.sql
+11:55:22.713 [pool-1-thread-11] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Found resource: db/migration/V2__Server_discovery.sql
+11:55:22.713 [pool-1-thread-11] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Found resource: db/migration/V3__Jar_symbols.sql
+11:55:22.713 [pool-1-thread-11] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Found resource: db/migration/V4__Fingerprints.sql
+11:55:22.714 [pool-1-thread-11] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Scanning for classes at classpath:db/migration
+11:55:22.714 [pool-1-thread-11] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/ (filename: )
+11:55:22.714 [pool-1-thread-11] DEBUG org.flywaydb.core.internal.resource.ResourceNameValidator -- Validating V2__Server_discovery.sql
+11:55:22.714 [pool-1-thread-11] DEBUG org.flywaydb.core.internal.resource.ResourceNameValidator -- Validating V4__Fingerprints.sql
+11:55:22.714 [pool-1-thread-11] DEBUG org.flywaydb.core.internal.resource.ResourceNameValidator -- Validating V3__Jar_symbols.sql
+11:55:22.714 [pool-1-thread-11] DEBUG org.flywaydb.core.internal.resource.ResourceNameValidator -- Validating V1__Create_tables.sql
+11:55:22.724 [pool-1-thread-12] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Scanning for classpath resources at 'classpath:db/migration' ...
+11:55:22.724 [pool-1-thread-12] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Determining location urls for classpath:db/migration using ClassLoader jdk.internal.loader.ClassLoaders$AppClassLoader@2cdf8d8a ...
+11:55:22.724 [pool-1-thread-12] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Scanning URL: jar:file:/C:/Users/Admin/AppData/Local/Coursier/cache/v1/https/repo1.maven.org/maven2/org/scalameta/metals_2.13/1.2.2/metals_2.13-1.2.2.jar!/db/migration
+11:55:22.725 [pool-1-thread-12] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Found resource: db/migration/
+11:55:22.725 [pool-1-thread-12] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Found resource: db/migration/V1__Create_tables.sql
+11:55:22.725 [pool-1-thread-12] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Found resource: db/migration/V2__Server_discovery.sql
+11:55:22.725 [pool-1-thread-12] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Found resource: db/migration/V3__Jar_symbols.sql
+11:55:22.725 [pool-1-thread-12] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Found resource: db/migration/V4__Fingerprints.sql
+11:55:22.725 [pool-1-thread-12] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Scanning for classes at classpath:db/migration
+11:55:22.726 [pool-1-thread-12] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/ (filename: )
+11:55:22.726 [pool-1-thread-12] DEBUG org.flywaydb.core.internal.resource.ResourceNameValidator -- Validating V2__Server_discovery.sql
+11:55:22.726 [pool-1-thread-12] DEBUG org.flywaydb.core.internal.resource.ResourceNameValidator -- Validating V4__Fingerprints.sql
+11:55:22.726 [pool-1-thread-12] DEBUG org.flywaydb.core.internal.resource.ResourceNameValidator -- Validating V3__Jar_symbols.sql
+11:55:22.726 [pool-1-thread-12] DEBUG org.flywaydb.core.internal.resource.ResourceNameValidator -- Validating V1__Create_tables.sql
+11:55:22.714 [pool-1-thread-6] DEBUG org.flywaydb.core.internal.resource.ResourceNameValidator -- Validating V3__Jar_symbols.sql
+11:55:22.728 [pool-1-thread-6] DEBUG org.flywaydb.core.internal.resource.ResourceNameValidator -- Validating V1__Create_tables.sql
+11:55:23.085 [pool-1-thread-14] INFO org.flywaydb.core.FlywayExecutor -- Database: jdbc:h2:file:C:\Users\Admin\Desktop\Project-DE\Football-project\.metals\metals (H2 2.2)
+11:55:23.085 [pool-1-thread-14] DEBUG org.flywaydb.core.FlywayExecutor -- Driver: H2 JDBC Driver 2.2.224 (2023-09-17)
+11:55:23.085 [pool-1-thread-14] DEBUG org.flywaydb.core.FlywayExecutor -- DDL Transactions Supported: false
+11:55:23.086 [pool-1-thread-14] DEBUG org.flywaydb.core.internal.schemahistory.SchemaHistoryFactory -- Schemas: 
+11:55:23.086 [pool-1-thread-14] DEBUG org.flywaydb.core.internal.schemahistory.SchemaHistoryFactory -- Default schema: null
+11:55:23.090 [pool-1-thread-14] WARN org.flywaydb.core.internal.database.base.Database -- Flyway upgrade recommended: H2 2.2.224 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.220.
+11:55:23.090 [pool-1-thread-13] INFO org.flywaydb.core.FlywayExecutor -- Database: jdbc:h2:file:C:\Users\Admin\Desktop\Project-DE\openweather-etl\.metals\metals (H2 2.2)
+11:55:23.090 [pool-1-thread-13] DEBUG org.flywaydb.core.FlywayExecutor -- Driver: H2 JDBC Driver 2.2.224 (2023-09-17)
+11:55:23.090 [pool-1-thread-13] DEBUG org.flywaydb.core.FlywayExecutor -- DDL Transactions Supported: false
+11:55:23.090 [pool-1-thread-13] DEBUG org.flywaydb.core.internal.schemahistory.SchemaHistoryFactory -- Schemas: 
+11:55:23.090 [pool-1-thread-13] DEBUG org.flywaydb.core.internal.schemahistory.SchemaHistoryFactory -- Default schema: null
+11:55:23.091 [pool-1-thread-14] DEBUG org.flywaydb.core.internal.callback.SqlScriptCallbackFactory -- Scanning for SQL callbacks ...
+11:55:23.091 [pool-1-thread-14] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/ (filename: )
+11:55:23.092 [pool-1-thread-13] WARN org.flywaydb.core.internal.database.base.Database -- Flyway upgrade recommended: H2 2.2.224 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.220.
+11:55:23.092 [pool-1-thread-13] DEBUG org.flywaydb.core.internal.callback.SqlScriptCallbackFactory -- Scanning for SQL callbacks ...
+11:55:23.092 [pool-1-thread-13] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/ (filename: )
+11:55:23.093 [pool-1-thread-7] INFO org.flywaydb.core.FlywayExecutor -- Database: jdbc:h2:file:C:\Users\Admin\Desktop\VSCode\DE_Project\DE_project\.metals\metals (H2 2.2)
+11:55:23.097 [pool-1-thread-7] DEBUG org.flywaydb.core.FlywayExecutor -- Driver: H2 JDBC Driver 2.2.224 (2023-09-17)
+11:55:23.097 [pool-1-thread-7] DEBUG org.flywaydb.core.FlywayExecutor -- DDL Transactions Supported: false
+11:55:23.097 [pool-1-thread-7] DEBUG org.flywaydb.core.internal.schemahistory.SchemaHistoryFactory -- Schemas: 
+11:55:23.097 [pool-1-thread-7] DEBUG org.flywaydb.core.internal.schemahistory.SchemaHistoryFactory -- Default schema: null
+11:55:23.097 [pool-1-thread-4] INFO org.flywaydb.core.FlywayExecutor -- Database: jdbc:h2:file:C:\Users\Admin\Desktop\VSCode\Docker\.metals\metals (H2 2.2)
+11:55:23.097 [pool-1-thread-4] DEBUG org.flywaydb.core.FlywayExecutor -- Driver: H2 JDBC Driver 2.2.224 (2023-09-17)
+11:55:23.097 [pool-1-thread-4] DEBUG org.flywaydb.core.FlywayExecutor -- DDL Transactions Supported: false
+11:55:23.097 [pool-1-thread-4] DEBUG org.flywaydb.core.internal.schemahistory.SchemaHistoryFactory -- Schemas: 
+11:55:23.097 [pool-1-thread-4] DEBUG org.flywaydb.core.internal.schemahistory.SchemaHistoryFactory -- Default schema: null
+11:55:23.098 [pool-1-thread-7] WARN org.flywaydb.core.internal.database.base.Database -- Flyway upgrade recommended: H2 2.2.224 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.220.
+11:55:23.099 [pool-1-thread-7] DEBUG org.flywaydb.core.internal.callback.SqlScriptCallbackFactory -- Scanning for SQL callbacks ...
+11:55:23.099 [pool-1-thread-7] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/ (filename: )
+11:55:23.105 [pool-1-thread-9] INFO org.flywaydb.core.FlywayExecutor -- Database: jdbc:h2:file:C:\Users\Admin\Desktop\Project-DE\Youtube-project\.metals\metals (H2 2.2)
+11:55:23.105 [pool-1-thread-9] DEBUG org.flywaydb.core.FlywayExecutor -- Driver: H2 JDBC Driver 2.2.224 (2023-09-17)
+11:55:23.105 [pool-1-thread-9] DEBUG org.flywaydb.core.FlywayExecutor -- DDL Transactions Supported: false
+11:55:23.105 [pool-1-thread-9] DEBUG org.flywaydb.core.internal.schemahistory.SchemaHistoryFactory -- Schemas: 
+11:55:23.105 [pool-1-thread-9] DEBUG org.flywaydb.core.internal.schemahistory.SchemaHistoryFactory -- Default schema: null
+11:55:23.106 [pool-1-thread-9] WARN org.flywaydb.core.internal.database.base.Database -- Flyway upgrade recommended: H2 2.2.224 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.220.
+11:55:23.106 [pool-1-thread-9] DEBUG org.flywaydb.core.internal.callback.SqlScriptCallbackFactory -- Scanning for SQL callbacks ...
+11:55:23.106 [pool-1-thread-9] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/ (filename: )
+11:55:23.131 [pool-1-thread-9] DEBUG org.flywaydb.core.internal.command.DbValidate -- Validating migrations ...
+11:55:23.132 [pool-1-thread-13] DEBUG org.flywaydb.core.internal.command.DbValidate -- Validating migrations ...
+11:55:23.134 [pool-1-thread-7] DEBUG org.flywaydb.core.internal.command.DbValidate -- Validating migrations ...
+11:55:23.099 [pool-1-thread-4] WARN org.flywaydb.core.internal.database.base.Database -- Flyway upgrade recommended: H2 2.2.224 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.220.
+11:55:23.135 [pool-1-thread-4] DEBUG org.flywaydb.core.internal.callback.SqlScriptCallbackFactory -- Scanning for SQL callbacks ...
+11:55:23.135 [pool-1-thread-4] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/ (filename: )
+11:55:23.142 [pool-1-thread-14] DEBUG org.flywaydb.core.internal.command.DbValidate -- Validating migrations ...
+11:55:23.142 [pool-1-thread-4] DEBUG org.flywaydb.core.internal.command.DbValidate -- Validating migrations ...
+11:55:23.175 [pool-1-thread-8] INFO org.flywaydb.core.FlywayExecutor -- Database: jdbc:h2:file:C:\Users\Admin\Desktop\Project-DE\Twitter-project\.metals\metals (H2 2.2)
+11:55:23.176 [pool-1-thread-8] DEBUG org.flywaydb.core.FlywayExecutor -- Driver: H2 JDBC Driver 2.2.224 (2023-09-17)
+11:55:23.176 [pool-1-thread-8] DEBUG org.flywaydb.core.FlywayExecutor -- DDL Transactions Supported: false
+11:55:23.176 [pool-1-thread-8] DEBUG org.flywaydb.core.internal.schemahistory.SchemaHistoryFactory -- Schemas: 
+11:55:23.176 [pool-1-thread-8] DEBUG org.flywaydb.core.internal.schemahistory.SchemaHistoryFactory -- Default schema: null
+11:55:23.179 [pool-1-thread-11] INFO org.flywaydb.core.FlywayExecutor -- Database: jdbc:h2:file:C:\Users\Admin\Desktop\Project-DE\HashTag-CashTag\HashtagCashtag-master\.metals\metals (H2 2.2)
+11:55:23.179 [pool-1-thread-11] DEBUG org.flywaydb.core.FlywayExecutor -- Driver: H2 JDBC Driver 2.2.224 (2023-09-17)
+11:55:23.179 [pool-1-thread-11] DEBUG org.flywaydb.core.FlywayExecutor -- DDL Transactions Supported: false
+11:55:23.179 [pool-1-thread-11] DEBUG org.flywaydb.core.internal.schemahistory.SchemaHistoryFactory -- Schemas: 
+11:55:23.179 [pool-1-thread-11] DEBUG org.flywaydb.core.internal.schemahistory.SchemaHistoryFactory -- Default schema: null
+11:55:23.210 [pool-1-thread-2] INFO org.flywaydb.core.FlywayExecutor -- Database: jdbc:h2:file:C:\Users\Admin\Desktop\Project-DE\Ramdom User Project\.metals\metals (H2 2.2)
+11:55:23.210 [pool-1-thread-2] DEBUG org.flywaydb.core.FlywayExecutor -- Driver: H2 JDBC Driver 2.2.224 (2023-09-17)
+11:55:23.210 [pool-1-thread-2] DEBUG org.flywaydb.core.FlywayExecutor -- DDL Transactions Supported: false
+11:55:23.210 [pool-1-thread-2] DEBUG org.flywaydb.core.internal.schemahistory.SchemaHistoryFactory -- Schemas: 
+11:55:23.210 [pool-1-thread-2] DEBUG org.flywaydb.core.internal.schemahistory.SchemaHistoryFactory -- Default schema: null
+11:55:23.211 [pool-1-thread-2] WARN org.flywaydb.core.internal.database.base.Database -- Flyway upgrade recommended: H2 2.2.224 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.220.
+11:55:23.212 [pool-1-thread-2] DEBUG org.flywaydb.core.internal.callback.SqlScriptCallbackFactory -- Scanning for SQL callbacks ...
+11:55:23.212 [pool-1-thread-2] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/ (filename: )
+11:55:23.213 [pool-1-thread-2] DEBUG org.flywaydb.core.internal.command.DbValidate -- Validating migrations ...
+11:55:23.213 [pool-1-thread-11] WARN org.flywaydb.core.internal.database.base.Database -- Flyway upgrade recommended: H2 2.2.224 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.220.
+11:55:23.213 [pool-1-thread-11] DEBUG org.flywaydb.core.internal.callback.SqlScriptCallbackFactory -- Scanning for SQL callbacks ...
+11:55:23.213 [pool-1-thread-11] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/ (filename: )
+11:55:23.214 [pool-1-thread-11] DEBUG org.flywaydb.core.internal.command.DbValidate -- Validating migrations ...
+11:55:23.219 [pool-1-thread-8] WARN org.flywaydb.core.internal.database.base.Database -- Flyway upgrade recommended: H2 2.2.224 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.220.
+11:55:23.220 [pool-1-thread-8] DEBUG org.flywaydb.core.internal.callback.SqlScriptCallbackFactory -- Scanning for SQL callbacks ...
+11:55:23.220 [pool-1-thread-8] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/ (filename: )
+11:55:23.221 [pool-1-thread-8] DEBUG org.flywaydb.core.internal.command.DbValidate -- Validating migrations ...
+11:55:23.270 [pool-1-thread-6] INFO org.flywaydb.core.FlywayExecutor -- Database: jdbc:h2:file:C:\Users\Admin\Desktop\VSCode\Git\.metals\metals (H2 2.2)
+11:55:23.270 [pool-1-thread-6] DEBUG org.flywaydb.core.FlywayExecutor -- Driver: H2 JDBC Driver 2.2.224 (2023-09-17)
+11:55:23.270 [pool-1-thread-6] DEBUG org.flywaydb.core.FlywayExecutor -- DDL Transactions Supported: false
+11:55:23.270 [pool-1-thread-6] DEBUG org.flywaydb.core.internal.schemahistory.SchemaHistoryFactory -- Schemas: 
+11:55:23.270 [pool-1-thread-6] DEBUG org.flywaydb.core.internal.schemahistory.SchemaHistoryFactory -- Default schema: null
+11:55:23.272 [pool-1-thread-6] WARN org.flywaydb.core.internal.database.base.Database -- Flyway upgrade recommended: H2 2.2.224 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.220.
+11:55:23.272 [pool-1-thread-6] DEBUG org.flywaydb.core.internal.callback.SqlScriptCallbackFactory -- Scanning for SQL callbacks ...
+11:55:23.272 [pool-1-thread-6] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/ (filename: )
+11:55:23.273 [pool-1-thread-6] DEBUG org.flywaydb.core.internal.command.DbValidate -- Validating migrations ...
+11:55:23.330 [pool-1-thread-12] INFO org.flywaydb.core.FlywayExecutor -- Database: jdbc:h2:file:C:\Users\Admin\Desktop\Project-DE\Podcast Project\.metals\metals (H2 2.2)
+11:55:23.330 [pool-1-thread-12] DEBUG org.flywaydb.core.FlywayExecutor -- Driver: H2 JDBC Driver 2.2.224 (2023-09-17)
+11:55:23.330 [pool-1-thread-12] DEBUG org.flywaydb.core.FlywayExecutor -- DDL Transactions Supported: false
+11:55:23.330 [pool-1-thread-12] DEBUG org.flywaydb.core.internal.schemahistory.SchemaHistoryFactory -- Schemas: 
+11:55:23.330 [pool-1-thread-12] DEBUG org.flywaydb.core.internal.schemahistory.SchemaHistoryFactory -- Default schema: null
+11:55:23.332 [pool-1-thread-12] WARN org.flywaydb.core.internal.database.base.Database -- Flyway upgrade recommended: H2 2.2.224 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.220.
+11:55:23.332 [pool-1-thread-12] DEBUG org.flywaydb.core.internal.callback.SqlScriptCallbackFactory -- Scanning for SQL callbacks ...
+11:55:23.332 [pool-1-thread-12] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/ (filename: )
+11:55:23.333 [pool-1-thread-12] DEBUG org.flywaydb.core.internal.command.DbValidate -- Validating migrations ...
+11:55:23.334 [pool-1-thread-12] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/ (filename: )
+11:55:23.302 [pool-1-thread-10] INFO org.flywaydb.core.FlywayExecutor -- Database: jdbc:h2:file:C:\Users\Admin\Desktop\Project-DE\Python-project\python-for-data-engineering-main\.metals\metals (H2 2.2)
+11:55:23.338 [pool-1-thread-10] DEBUG org.flywaydb.core.FlywayExecutor -- Driver: H2 JDBC Driver 2.2.224 (2023-09-17)
+11:55:23.338 [pool-1-thread-10] DEBUG org.flywaydb.core.FlywayExecutor -- DDL Transactions Supported: false
+11:55:23.338 [pool-1-thread-10] DEBUG org.flywaydb.core.internal.schemahistory.SchemaHistoryFactory -- Schemas: 
+11:55:23.338 [pool-1-thread-10] DEBUG org.flywaydb.core.internal.schemahistory.SchemaHistoryFactory -- Default schema: null
+11:55:23.340 [pool-1-thread-10] WARN org.flywaydb.core.internal.database.base.Database -- Flyway upgrade recommended: H2 2.2.224 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.220.
+11:55:23.338 [pool-1-thread-4] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/ (filename: )
+11:55:23.340 [pool-1-thread-7] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/ (filename: )
+11:55:23.341 [pool-1-thread-11] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/ (filename: )
+11:55:23.342 [pool-1-thread-6] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/ (filename: )
+11:55:23.342 [pool-1-thread-9] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/ (filename: )
+11:55:23.348 [pool-1-thread-13] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/ (filename: )
+11:55:23.356 [pool-1-thread-8] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/ (filename: )
+11:55:23.340 [pool-1-thread-10] DEBUG org.flywaydb.core.internal.callback.SqlScriptCallbackFactory -- Scanning for SQL callbacks ...
+11:55:23.358 [pool-1-thread-10] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/ (filename: )
+11:55:23.340 [pool-1-thread-2] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/ (filename: )
+11:55:23.359 [pool-1-thread-10] DEBUG org.flywaydb.core.internal.command.DbValidate -- Validating migrations ...
+11:55:23.359 [pool-1-thread-10] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/ (filename: )
+11:55:23.340 [pool-1-thread-14] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/ (filename: )
+11:55:23.369 [pool-1-thread-12] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/V2__Server_discovery.sql (filename: V2__Server_discovery.sql)
+11:55:23.369 [pool-1-thread-12] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/V4__Fingerprints.sql (filename: V4__Fingerprints.sql)
+11:55:23.369 [pool-1-thread-12] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/V3__Jar_symbols.sql (filename: V3__Jar_symbols.sql)
+11:55:23.369 [pool-1-thread-12] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/ (filename: )
+11:55:23.369 [pool-1-thread-12] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/V1__Create_tables.sql (filename: V1__Create_tables.sql)
+11:55:23.370 [pool-1-thread-12] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/V2__Server_discovery.sql (filename: V2__Server_discovery.sql)
+11:55:23.370 [pool-1-thread-12] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/V4__Fingerprints.sql (filename: V4__Fingerprints.sql)
+11:55:23.370 [pool-1-thread-12] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/V3__Jar_symbols.sql (filename: V3__Jar_symbols.sql)
+11:55:23.371 [pool-1-thread-10] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/V2__Server_discovery.sql (filename: V2__Server_discovery.sql)
+11:55:23.372 [pool-1-thread-10] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/V4__Fingerprints.sql (filename: V4__Fingerprints.sql)
+11:55:23.372 [pool-1-thread-10] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/V3__Jar_symbols.sql (filename: V3__Jar_symbols.sql)
+11:55:23.372 [pool-1-thread-10] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/ (filename: )
+11:55:23.377 [pool-1-thread-10] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/V1__Create_tables.sql (filename: V1__Create_tables.sql)
+11:55:23.380 [pool-1-thread-10] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/V2__Server_discovery.sql (filename: V2__Server_discovery.sql)
+11:55:23.380 [pool-1-thread-10] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/V4__Fingerprints.sql (filename: V4__Fingerprints.sql)
+11:55:23.380 [pool-1-thread-10] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/V3__Jar_symbols.sql (filename: V3__Jar_symbols.sql)
+11:55:23.380 [pool-1-thread-10] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/ (filename: )
+11:55:23.380 [pool-1-thread-10] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/V1__Create_tables.sql (filename: V1__Create_tables.sql)
+11:55:23.372 [pool-1-thread-12] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/ (filename: )
+11:55:23.389 [pool-1-thread-12] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/V1__Create_tables.sql (filename: V1__Create_tables.sql)
+11:55:23.373 [pool-1-thread-7] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/V2__Server_discovery.sql (filename: V2__Server_discovery.sql)
+11:55:23.390 [pool-1-thread-7] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/V4__Fingerprints.sql (filename: V4__Fingerprints.sql)
+11:55:23.390 [pool-1-thread-7] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/V3__Jar_symbols.sql (filename: V3__Jar_symbols.sql)
+11:55:23.390 [pool-1-thread-7] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/ (filename: )
+11:55:23.390 [pool-1-thread-7] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/V1__Create_tables.sql (filename: V1__Create_tables.sql)
+11:55:23.391 [pool-1-thread-7] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/V2__Server_discovery.sql (filename: V2__Server_discovery.sql)
+11:55:23.391 [pool-1-thread-7] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/V4__Fingerprints.sql (filename: V4__Fingerprints.sql)
+11:55:23.391 [pool-1-thread-7] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/V3__Jar_symbols.sql (filename: V3__Jar_symbols.sql)
+11:55:23.391 [pool-1-thread-7] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/ (filename: )
+11:55:23.391 [pool-1-thread-7] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/V1__Create_tables.sql (filename: V1__Create_tables.sql)
+11:55:23.393 [pool-1-thread-2] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/V2__Server_discovery.sql (filename: V2__Server_discovery.sql)
+11:55:23.393 [pool-1-thread-2] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/V4__Fingerprints.sql (filename: V4__Fingerprints.sql)
+11:55:23.393 [pool-1-thread-2] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/V3__Jar_symbols.sql (filename: V3__Jar_symbols.sql)
+11:55:23.393 [pool-1-thread-2] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/ (filename: )
+11:55:23.399 [pool-1-thread-2] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/V1__Create_tables.sql (filename: V1__Create_tables.sql)
+11:55:23.399 [pool-1-thread-2] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/V2__Server_discovery.sql (filename: V2__Server_discovery.sql)
+11:55:23.399 [pool-1-thread-2] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/V4__Fingerprints.sql (filename: V4__Fingerprints.sql)
+11:55:23.399 [pool-1-thread-2] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/V3__Jar_symbols.sql (filename: V3__Jar_symbols.sql)
+11:55:23.399 [pool-1-thread-2] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/ (filename: )
+11:55:23.399 [pool-1-thread-2] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/V1__Create_tables.sql (filename: V1__Create_tables.sql)
+11:55:23.395 [pool-1-thread-11] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/V2__Server_discovery.sql (filename: V2__Server_discovery.sql)
+11:55:23.400 [pool-1-thread-11] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/V4__Fingerprints.sql (filename: V4__Fingerprints.sql)
+11:55:23.400 [pool-1-thread-11] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/V3__Jar_symbols.sql (filename: V3__Jar_symbols.sql)
+11:55:23.400 [pool-1-thread-11] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/ (filename: )
+11:55:23.400 [pool-1-thread-11] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/V1__Create_tables.sql (filename: V1__Create_tables.sql)
+11:55:23.400 [pool-1-thread-11] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/V2__Server_discovery.sql (filename: V2__Server_discovery.sql)
+11:55:23.401 [pool-1-thread-11] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/V4__Fingerprints.sql (filename: V4__Fingerprints.sql)
+11:55:23.401 [pool-1-thread-11] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/V3__Jar_symbols.sql (filename: V3__Jar_symbols.sql)
+11:55:23.401 [pool-1-thread-11] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/ (filename: )
+11:55:23.401 [pool-1-thread-11] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/V1__Create_tables.sql (filename: V1__Create_tables.sql)
+11:55:23.402 [pool-1-thread-8] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/V2__Server_discovery.sql (filename: V2__Server_discovery.sql)
+11:55:23.402 [pool-1-thread-8] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/V4__Fingerprints.sql (filename: V4__Fingerprints.sql)
+11:55:23.402 [pool-1-thread-8] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/V3__Jar_symbols.sql (filename: V3__Jar_symbols.sql)
+11:55:23.402 [pool-1-thread-8] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/ (filename: )
+11:55:23.402 [pool-1-thread-8] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/V1__Create_tables.sql (filename: V1__Create_tables.sql)
+11:55:23.402 [pool-1-thread-8] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/V2__Server_discovery.sql (filename: V2__Server_discovery.sql)
+11:55:23.402 [pool-1-thread-8] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/V4__Fingerprints.sql (filename: V4__Fingerprints.sql)
+11:55:23.402 [pool-1-thread-8] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/V3__Jar_symbols.sql (filename: V3__Jar_symbols.sql)
+11:55:23.402 [pool-1-thread-8] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/ (filename: )
+11:55:23.402 [pool-1-thread-8] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/V1__Create_tables.sql (filename: V1__Create_tables.sql)
+11:55:23.395 [pool-1-thread-13] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/V2__Server_discovery.sql (filename: V2__Server_discovery.sql)
+11:55:23.403 [pool-1-thread-13] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/V4__Fingerprints.sql (filename: V4__Fingerprints.sql)
+11:55:23.403 [pool-1-thread-13] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/V3__Jar_symbols.sql (filename: V3__Jar_symbols.sql)
+11:55:23.403 [pool-1-thread-13] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/ (filename: )
+11:55:23.403 [pool-1-thread-13] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/V1__Create_tables.sql (filename: V1__Create_tables.sql)
+11:55:23.403 [pool-1-thread-13] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/V2__Server_discovery.sql (filename: V2__Server_discovery.sql)
+11:55:23.403 [pool-1-thread-13] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/V4__Fingerprints.sql (filename: V4__Fingerprints.sql)
+11:55:23.403 [pool-1-thread-13] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/V3__Jar_symbols.sql (filename: V3__Jar_symbols.sql)
+11:55:23.403 [pool-1-thread-13] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/ (filename: )
+11:55:23.403 [pool-1-thread-13] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/V1__Create_tables.sql (filename: V1__Create_tables.sql)
+11:55:23.398 [pool-1-thread-14] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/V2__Server_discovery.sql (filename: V2__Server_discovery.sql)
+11:55:23.407 [pool-1-thread-14] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/V4__Fingerprints.sql (filename: V4__Fingerprints.sql)
+11:55:23.407 [pool-1-thread-14] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/V3__Jar_symbols.sql (filename: V3__Jar_symbols.sql)
+11:55:23.407 [pool-1-thread-4] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/V2__Server_discovery.sql (filename: V2__Server_discovery.sql)
+11:55:23.407 [pool-1-thread-4] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/V4__Fingerprints.sql (filename: V4__Fingerprints.sql)
+11:55:23.407 [pool-1-thread-4] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/V3__Jar_symbols.sql (filename: V3__Jar_symbols.sql)
+11:55:23.407 [pool-1-thread-4] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/ (filename: )
+11:55:23.407 [pool-1-thread-4] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/V1__Create_tables.sql (filename: V1__Create_tables.sql)
+11:55:23.407 [pool-1-thread-4] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/V2__Server_discovery.sql (filename: V2__Server_discovery.sql)
+11:55:23.407 [pool-1-thread-4] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/V4__Fingerprints.sql (filename: V4__Fingerprints.sql)
+11:55:23.407 [pool-1-thread-4] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/V3__Jar_symbols.sql (filename: V3__Jar_symbols.sql)
+11:55:23.407 [pool-1-thread-4] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/ (filename: )
+11:55:23.407 [pool-1-thread-4] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/V1__Create_tables.sql (filename: V1__Create_tables.sql)
+11:55:23.408 [pool-1-thread-6] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/V2__Server_discovery.sql (filename: V2__Server_discovery.sql)
+11:55:23.409 [pool-1-thread-6] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/V4__Fingerprints.sql (filename: V4__Fingerprints.sql)
+11:55:23.409 [pool-1-thread-6] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/V3__Jar_symbols.sql (filename: V3__Jar_symbols.sql)
+11:55:23.409 [pool-1-thread-6] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/ (filename: )
+11:55:23.409 [pool-1-thread-6] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/V1__Create_tables.sql (filename: V1__Create_tables.sql)
+11:55:23.409 [pool-1-thread-6] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/V2__Server_discovery.sql (filename: V2__Server_discovery.sql)
+11:55:23.409 [pool-1-thread-6] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/V4__Fingerprints.sql (filename: V4__Fingerprints.sql)
+11:55:23.409 [pool-1-thread-6] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/V3__Jar_symbols.sql (filename: V3__Jar_symbols.sql)
+11:55:23.409 [pool-1-thread-6] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/ (filename: )
+11:55:23.409 [pool-1-thread-6] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/V1__Create_tables.sql (filename: V1__Create_tables.sql)
+11:55:23.410 [pool-1-thread-9] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/V2__Server_discovery.sql (filename: V2__Server_discovery.sql)
+11:55:23.410 [pool-1-thread-9] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/V4__Fingerprints.sql (filename: V4__Fingerprints.sql)
+11:55:23.410 [pool-1-thread-9] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/V3__Jar_symbols.sql (filename: V3__Jar_symbols.sql)
+11:55:23.410 [pool-1-thread-9] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/ (filename: )
+11:55:23.410 [pool-1-thread-9] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/V1__Create_tables.sql (filename: V1__Create_tables.sql)
+11:55:23.410 [pool-1-thread-14] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/ (filename: )
+11:55:23.411 [pool-1-thread-14] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/V1__Create_tables.sql (filename: V1__Create_tables.sql)
+11:55:23.411 [pool-1-thread-14] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/V2__Server_discovery.sql (filename: V2__Server_discovery.sql)
+11:55:23.411 [pool-1-thread-14] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/V4__Fingerprints.sql (filename: V4__Fingerprints.sql)
+11:55:23.411 [pool-1-thread-14] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/V3__Jar_symbols.sql (filename: V3__Jar_symbols.sql)
+11:55:23.411 [pool-1-thread-14] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/ (filename: )
+11:55:23.411 [pool-1-thread-14] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/V1__Create_tables.sql (filename: V1__Create_tables.sql)
+11:55:23.410 [pool-1-thread-9] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/V2__Server_discovery.sql (filename: V2__Server_discovery.sql)
+11:55:23.411 [pool-1-thread-9] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/V4__Fingerprints.sql (filename: V4__Fingerprints.sql)
+11:55:23.411 [pool-1-thread-9] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/V3__Jar_symbols.sql (filename: V3__Jar_symbols.sql)
+11:55:23.411 [pool-1-thread-9] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/ (filename: )
+11:55:23.411 [pool-1-thread-9] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/V1__Create_tables.sql (filename: V1__Create_tables.sql)
+11:55:23.427 [pool-1-thread-11] INFO org.flywaydb.core.internal.command.DbValidate -- Successfully validated 4 migrations (execution time 00:00.212s)
+11:55:23.427 [pool-1-thread-13] INFO org.flywaydb.core.internal.command.DbValidate -- Successfully validated 4 migrations (execution time 00:00.294s)
+11:55:23.428 [pool-1-thread-9] INFO org.flywaydb.core.internal.command.DbValidate -- Successfully validated 4 migrations (execution time 00:00.295s)
+11:55:23.428 [pool-1-thread-8] INFO org.flywaydb.core.internal.command.DbValidate -- Successfully validated 4 migrations (execution time 00:00.207s)
+11:55:23.429 [pool-1-thread-4] INFO org.flywaydb.core.internal.command.DbValidate -- Successfully validated 4 migrations (execution time 00:00.286s)
+11:55:23.427 [pool-1-thread-12] INFO org.flywaydb.core.internal.command.DbValidate -- Successfully validated 4 migrations (execution time 00:00.093s)
+11:55:23.429 [pool-1-thread-10] INFO org.flywaydb.core.internal.command.DbValidate -- Successfully validated 4 migrations (execution time 00:00.071s)
+11:55:23.428 [pool-1-thread-6] INFO org.flywaydb.core.internal.command.DbValidate -- Successfully validated 4 migrations (execution time 00:00.155s)
+11:55:23.428 [pool-1-thread-7] INFO org.flywaydb.core.internal.command.DbValidate -- Successfully validated 4 migrations (execution time 00:00.294s)
+11:55:23.430 [pool-1-thread-2] INFO org.flywaydb.core.internal.command.DbValidate -- Successfully validated 4 migrations (execution time 00:00.217s)
+11:55:23.431 [pool-1-thread-8] DEBUG org.flywaydb.core.internal.command.DbSchemas -- Skipping creation of existing schema: "PUBLIC"
+11:55:23.433 [pool-1-thread-7] DEBUG org.flywaydb.core.internal.command.DbSchemas -- Skipping creation of existing schema: "PUBLIC"
+11:55:23.433 [pool-1-thread-2] DEBUG org.flywaydb.core.internal.command.DbSchemas -- Skipping creation of existing schema: "PUBLIC"
+11:55:23.433 [pool-1-thread-14] INFO org.flywaydb.core.internal.command.DbValidate -- Successfully validated 4 migrations (execution time 00:00.290s)
+11:55:23.433 [pool-1-thread-14] DEBUG org.flywaydb.core.internal.command.DbSchemas -- Skipping creation of existing schema: "PUBLIC"
+11:55:23.434 [pool-1-thread-12] DEBUG org.flywaydb.core.internal.command.DbSchemas -- Skipping creation of existing schema: "PUBLIC"
+11:55:23.434 [pool-1-thread-13] DEBUG org.flywaydb.core.internal.command.DbSchemas -- Skipping creation of existing schema: "PUBLIC"
+11:55:23.434 [pool-1-thread-6] DEBUG org.flywaydb.core.internal.command.DbSchemas -- Skipping creation of existing schema: "PUBLIC"
+11:55:23.435 [pool-1-thread-9] DEBUG org.flywaydb.core.internal.command.DbSchemas -- Skipping creation of existing schema: "PUBLIC"
+11:55:23.435 [pool-1-thread-10] DEBUG org.flywaydb.core.internal.command.DbSchemas -- Skipping creation of existing schema: "PUBLIC"
+11:55:23.436 [pool-1-thread-4] DEBUG org.flywaydb.core.internal.command.DbSchemas -- Skipping creation of existing schema: "PUBLIC"
+11:55:23.437 [pool-1-thread-11] DEBUG org.flywaydb.core.internal.command.DbSchemas -- Skipping creation of existing schema: "PUBLIC"
+11:55:23.441 [pool-1-thread-8] INFO org.flywaydb.core.internal.command.DbMigrate -- Current version of schema "PUBLIC": 4
+11:55:23.441 [pool-1-thread-4] INFO org.flywaydb.core.internal.command.DbMigrate -- Current version of schema "PUBLIC": 4
+11:55:23.442 [pool-1-thread-6] INFO org.flywaydb.core.internal.command.DbMigrate -- Current version of schema "PUBLIC": 4
+11:55:23.442 [pool-1-thread-12] INFO org.flywaydb.core.internal.command.DbMigrate -- Current version of schema "PUBLIC": 4
+11:55:23.442 [pool-1-thread-14] INFO org.flywaydb.core.internal.command.DbMigrate -- Current version of schema "PUBLIC": 4
+11:55:23.444 [pool-1-thread-9] INFO org.flywaydb.core.internal.command.DbMigrate -- Current version of schema "PUBLIC": 4
+11:55:23.444 [pool-1-thread-11] INFO org.flywaydb.core.internal.command.DbMigrate -- Current version of schema "PUBLIC": 4
+11:55:23.445 [pool-1-thread-10] INFO org.flywaydb.core.internal.command.DbMigrate -- Current version of schema "PUBLIC": 4
+11:55:23.446 [pool-1-thread-13] INFO org.flywaydb.core.internal.command.DbMigrate -- Current version of schema "PUBLIC": 4
+11:55:23.446 [pool-1-thread-2] INFO org.flywaydb.core.internal.command.DbMigrate -- Current version of schema "PUBLIC": 4
+11:55:23.489 [pool-1-thread-7] INFO org.flywaydb.core.internal.command.DbMigrate -- Current version of schema "PUBLIC": 4
+11:55:23.490 [pool-1-thread-11] INFO org.flywaydb.core.internal.command.DbMigrate -- Schema "PUBLIC" is up to date. No migration necessary.
+11:55:23.491 [pool-1-thread-10] INFO org.flywaydb.core.internal.command.DbMigrate -- Schema "PUBLIC" is up to date. No migration necessary.
+11:55:23.490 [pool-1-thread-13] INFO org.flywaydb.core.internal.command.DbMigrate -- Schema "PUBLIC" is up to date. No migration necessary.
+11:55:23.490 [pool-1-thread-7] INFO org.flywaydb.core.internal.command.DbMigrate -- Schema "PUBLIC" is up to date. No migration necessary.
+11:55:23.492 [pool-1-thread-12] INFO org.flywaydb.core.internal.command.DbMigrate -- Schema "PUBLIC" is up to date. No migration necessary.
+11:55:23.497 [pool-1-thread-9] INFO org.flywaydb.core.internal.command.DbMigrate -- Schema "PUBLIC" is up to date. No migration necessary.
+11:55:23.498 [pool-1-thread-8] INFO org.flywaydb.core.internal.command.DbMigrate -- Schema "PUBLIC" is up to date. No migration necessary.
+11:55:23.501 [pool-1-thread-2] INFO org.flywaydb.core.internal.command.DbMigrate -- Schema "PUBLIC" is up to date. No migration necessary.
+11:55:23.503 [pool-1-thread-14] INFO org.flywaydb.core.internal.command.DbMigrate -- Schema "PUBLIC" is up to date. No migration necessary.
+11:55:23.504 [pool-1-thread-4] INFO org.flywaydb.core.internal.command.DbMigrate -- Schema "PUBLIC" is up to date. No migration necessary.
+11:55:23.504 [pool-1-thread-6] INFO org.flywaydb.core.internal.command.DbMigrate -- Schema "PUBLIC" is up to date. No migration necessary.
+11:55:23.742 [pool-1-thread-4] DEBUG org.flywaydb.core.FlywayExecutor -- Memory usage: 61 of 120M
+11:55:23.749 [pool-1-thread-11] DEBUG org.flywaydb.core.FlywayExecutor -- Memory usage: 69 of 120M
+11:55:23.861 [pool-1-thread-13] DEBUG org.flywaydb.core.FlywayExecutor -- Memory usage: 74 of 120M
+11:55:23.935 [pool-1-thread-6] DEBUG org.flywaydb.core.FlywayExecutor -- Memory usage: 87 of 120M
+11:55:23.935 [pool-1-thread-8] DEBUG org.flywaydb.core.FlywayExecutor -- Memory usage: 87 of 120M
+11:55:23.952 [pool-1-thread-14] DEBUG org.flywaydb.core.FlywayExecutor -- Memory usage: 87 of 120M
+11:55:24.026 [pool-1-thread-7] DEBUG org.flywaydb.core.FlywayExecutor -- Memory usage: 72 of 120M
+11:55:24.084 [pool-1-thread-2] DEBUG org.flywaydb.core.FlywayExecutor -- Memory usage: 82 of 120M
+11:55:24.255 [pool-1-thread-10] DEBUG org.flywaydb.core.FlywayExecutor -- Memory usage: 74 of 120M
+11:55:24.293 [pool-1-thread-12] DEBUG org.flywaydb.core.FlywayExecutor -- Memory usage: 78 of 120M
+11:55:24.296 [pool-1-thread-9] DEBUG org.flywaydb.core.FlywayExecutor -- Memory usage: 79 of 120M
+2024.04.01 11:55:24 WARN  no build tool detected in workspace 'C:\Users\Admin\Desktop\Project-DE\HashTag-CashTag\HashtagCashtag-master'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2024.04.01 11:55:24 WARN  no build tool detected in workspace 'C:\Users\Admin\Desktop\VSCode\Docker'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2024.04.01 11:55:24 WARN  no build tool detected in workspace 'C:\Users\Admin\Desktop\VSCode\DE_Project\DE_project'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2024.04.01 11:55:24 WARN  Build server is not auto-connectable.
+2024.04.01 11:55:24 WARN  Build server is not auto-connectable.
+2024.04.01 11:55:24 WARN  no build tool detected in workspace 'C:\Users\Admin\Desktop\Project-DE\Twitter-project'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2024.04.01 11:55:24 WARN  Build server is not auto-connectable.
+2024.04.01 11:55:24 WARN  Build server is not auto-connectable.
+2024.04.01 11:55:24 WARN  no build tool detected in workspace 'C:\Users\Admin\Desktop\Project-DE\Python-project\python-for-data-engineering-main'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2024.04.01 11:55:24 WARN  no build tool detected in workspace 'C:\Users\Admin\Desktop\Project-DE\Youtube-project'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2024.04.01 11:55:25 WARN  no build tool detected in workspace 'C:\Users\Admin\Desktop\Project-DE\Ramdom User Project'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2024.04.01 11:55:25 WARN  Build server is not auto-connectable.
+2024.04.01 11:55:24 WARN  Build server is not auto-connectable.
+2024.04.01 11:55:25 WARN  Build server is not auto-connectable.
+2024.04.01 11:55:25 WARN  no build tool detected in workspace 'C:\Users\Admin\Desktop\VSCode\Git'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2024.04.01 11:55:25 WARN  Build server is not auto-connectable.
+2024.04.01 11:55:25 WARN  no build tool detected in workspace 'C:\Users\Admin\Desktop\Project-DE\Football-project'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2024.04.01 11:55:25 WARN  Build server is not auto-connectable.
+2024.04.01 11:55:25 WARN  no build tool detected in workspace 'C:\Users\Admin\Desktop\Project-DE\Podcast Project'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2024.04.01 11:55:25 WARN  Build server is not auto-connectable.
