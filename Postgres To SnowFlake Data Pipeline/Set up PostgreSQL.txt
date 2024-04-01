@@ -1,0 +1,19 @@
+The first step is to create and populate a local PostgreSQL instance. You’ll need to clone the below GitHub repo. The repo contains all the code and files you’ll use throughout the tutorial
+
+git clone https://github.com/vicradon/postgres-airbyte-snowflake-tut.git
+
+After cloning the repo, navigate to the clone repo. Then create a new database.
+
+createdb airbyte_tut -U postgres
+
+After creating the database, run the command below to create a table, movies and populate it with data.
+
+psql -d airbyte_tut -f movies.sql -U postgres
+
+Now, enter the psql shell as user postgres, psql -U postgres, then connect to the airbyte_tut database, \c airbyte_tut. Next, create a dedicated read-only user that will have access to the relevant tables in the airbyte_tut database.
+
+CREATE USER airbyte PASSWORD 'your_password_here';
+
+Then, give the Airbyte user access to the airbtye_tut database.
+
+GRANT ALL PRIVILEGES ON ALL TABLES IN SCHEMA public TO airbyte;

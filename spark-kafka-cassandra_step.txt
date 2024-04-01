@@ -1,0 +1,89 @@
+Version
+
+spark-2.1.1-bin-hadoop2.7
+
+apache-cassandra-3.9
+
+kafka_2.11-0.9.0.0
+
+
+
+=========================================================================
+
+1. Start Kafka 
+
+
+
+Zookeeper
+
+bin/zookeeper-server-start.sh config/zookeeper.properties
+
+
+
+Kafka
+
+bin/kafka-server-start.sh config/server.properties
+
+
+
+Create topic
+
+bin/kafka-topics.sh --create --zookeeper localhost:2181 --replication-factor 1 --partitions 1 --topic mytopic
+
+bin/kafka-topics.sh --list --zookeeper localhost:2181
+
+
+
+Producer 
+
+bin/kafka-console-producer.sh --broker-list localhost:9092 --topic mytopic
+
+
+
+Consumer
+
+bin/kafka-console-consumer.sh --zookeeper localhost:2181 --topic mytopic --from-beginning
+
+or
+
+bin/kafka-console-consumer.sh --bootstrap-server localhost:9092  --topic mytopic --from-beginning
+
+=========================================================================
+
+2. Start Spark 
+
+sbin/start-all.sh
+
+=========================================================================
+
+3. Start Cassandra
+
+
+
+bin/cassandra -f 
+
+
+
+create keyspace sparkdata with replication ={'class':'SimpleStrategy','replication_factor':1};
+
+
+
+use sparkdata;
+
+
+
+CREATE TABLE cust_data (fname text , lname text , url text,product text , cnt counter ,primary key (fname,lname,url,product));
+
+select * from cust_data;
+
+
+
+=========================================================================
+
+Spark Kafka Cassandra Streaming Code
+
+Start the Spark Shell with below command 
+
+bin/spark-shell --packages "com.datastax.spark:spark-cassandra-connector_2.11:2.0.2","org.apache.spark:spark-streaming-kafka-0-8_2.11:2.0.0"
+
+Run this code in the spark shell

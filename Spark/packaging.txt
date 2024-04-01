@@ -1,0 +1,13 @@
+1 Creating a deployable artifact
+how to run a PySpark program locally by first zipping your code. This packaging step becomes more important when your code consists of many modules. Packaging in the zip format is done by navigating to the root folder of your pipeline using the cd command and running
+
+cd spark_pipelines
+zip --recurse-paths pydiaper.zip pydiaper
+
+2 Submitting your Spark job
+With the dependencies of a job ready to be distributed across a cluster’s nodes, you can submit a job to a cluster easily
+To run a PySpark application locally, you need to call:
+
+spark-submit --py-files PY_FILES MAIN_PYTHON_FILE
+
+Ex: spark-submit --py-files spark_pipelines/pydiaper/pydiaper.zip ./spark_pipelines/pydiaper/pydiaper/cleaning/clean_ratings.py

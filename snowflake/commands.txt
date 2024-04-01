@@ -1,0 +1,12 @@
+sudo apt update
+sudo apt install python3-pip
+sudo apt install python3.10-venv
+python3 -m venv airflow_snow_venv
+source airflow_snow_venv/bin/activate
+sudo pip install apache-airflow
+pip install apache-airflow-providers-snowflake
+pip install snowflake-connector-python
+pip install snowflake-sqlalchemy
+airflow standalone
+pip uninstall pydantic==2.0
+pip install pydantic==1.10.10

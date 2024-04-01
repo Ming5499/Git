@@ -1,0 +1,13 @@
+java.nio.file.AccessDeniedException: C:\Users\Admin\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\typelevel\cats-kernel_2.12\2.1.1\.cats-kernel_2.12-2.1.1.pom__sha1.computed16451524098717306011.tmp -> C:\Users\Admin\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\typelevel\cats-kernel_2.12\2.1.1\.cats-kernel_2.12-2.1.1.pom__sha1.computed
+  java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:89)
+  java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+  java.base/sun.nio.fs.WindowsFileCopy.move(WindowsFileCopy.java:317)
+  java.base/sun.nio.fs.WindowsFileSystemProvider.move(WindowsFileSystemProvider.java:293)
+  java.base/java.nio.file.Files.move(Files.java:1432)
+  coursier.cache.FileCache$.coursier$cache$FileCache$$persistedDigest(FileCache.scala:442)
+  coursier.cache.FileCache.$anonfun$validateChecksum$4(FileCache.scala:136)
+  scala.concurrent.Future$.$anonfun$apply$1(Future.scala:687)
+  scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+  java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+  java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+  java.base/java.lang.Thread.run(Thread.java:833)
