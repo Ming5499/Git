@@ -6244,3 +6244,5 @@ WARNING: Unmatched cancel notification for request id 1
 2024.04.01 11:57:24 WARN  Build server is not auto-connectable.
 Apr 01, 2024 12:06:44 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
 INFO: Unsupported notification method: $/setTrace
+2024.04.01 20:34:49 INFO  Shutting down server
+2024.04.01 20:34:49 INFO  shutting down Metals
