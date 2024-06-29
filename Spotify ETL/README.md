@@ -9,3 +9,10 @@ on what songs we've listened to in the last 24 hours, and saves that data in a S
 We will schedule this pipeline to run daily. After a few months we will end up with our own, private Spotify played tracks history dataset!
 
 Generate your Spotify API access token here: https://developer.spotify.com/console/get-recently-played/
+
+
+
+fetch the data from Spotify using an API Token
+The extracted data is then transformed with certain data analysis using Jupyter Notebook with Python programming language. It is then loaded to MongoDB to create the collection using Pymongo library.
+
+the transformed data to visualize using Seaborn and Matplotlib library.
